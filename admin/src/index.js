@@ -13,7 +13,7 @@ export default {
   register(app) {
     app.customFields.register({
       name: 'StrapiGrapeJS',
-      type: 'richtext',
+      type: 'json',
       pluginId: 'grape-editor',
       icon: () => {
         return (

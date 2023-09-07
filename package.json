@@ -1,18 +1,23 @@
 {
-  "name": "strapi-grapejs-plugin",
-  "version": "0.0.0",
-  "description": "This is the description of the plugin.",
+  "name": "@strapi/strapi-grapejs-plugin",
+  "version": "1.0.0",
+  "description": "This is a plugin to use grapeJs as richtext editor for strapi.",
   "strapi": {
     "name": "strapi-grapejs-plugin",
-    "description": "Description of Strapi Grapejs Plugin plugin",
+    "description": "This is a plugin to use grapeJs as richtext editor for strapi.",
     "kind": "plugin",
     "displayName": "Strapi Grapejs Plugin"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vijay94/strapi-grapejs-plugin.git"
   },
   "dependencies": {
     "@strapi/design-system": "^1.6.3",
     "@strapi/helper-plugin": "^4.6.0",
     "@strapi/icons": "^1.6.3",
     "grapesjs": "^0.21.5",
+    "grapesjs-blocks-basic": "^1.0.2",
     "grapesjs-preset-webpage": "^1.0.3",
     "prop-types": "^15.7.2"
   },
@@ -29,11 +34,16 @@
     "styled-components": "^5.3.6"
   },
   "author": {
-    "name": "A Strapi developer"
+    "name": "Vijay Sundharapandiyan",
+    "email": "vijaycenation14@gmail.com",
+    "url": "https://github.com/vijay94"
+
   },
   "maintainers": [
     {
-      "name": "A Strapi developer"
+      "name": "Vijay Sundharapandiyan",
+      "email": "vijaycenation14@gmail.com",
+      "url": "https://github.com/vijay94"
     }
   ],
   "engines": {

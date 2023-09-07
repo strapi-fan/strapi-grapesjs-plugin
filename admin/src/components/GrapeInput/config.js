@@ -1,12 +1,13 @@
 import webpagePlugin from 'grapesjs-preset-webpage';
+import Basics from 'grapesjs-blocks-basic';
+
 
 export default {
     container: '#gjs',
     height: '500px',
     width: '100%',
-    plugins: [webpagePlugin],
-    storageManager: false,
-    
+    plugins: [Basics, webpagePlugin],
+
     deviceManager: {
       devices:
       [

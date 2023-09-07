@@ -4,6 +4,6 @@ module.exports = ({ strapi }) => {
   strapi.customFields.register({
     name: 'StrapiGrapeJS',
     plugin: 'grape-editor',
-    type: 'richtext'
+    type: 'json'
   })
 };
