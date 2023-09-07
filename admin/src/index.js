@@ -1,8 +1,8 @@
 // @ts-nocheck
 import React from 'react';
 
-import { Icon } from '@strapi/design-system/Icon';
-import { Flex } from '@strapi/design-system/Flex';
+import { Icon } from '@strapi-fan/design-system/Icon';
+import { Flex } from '@strapi-fan/design-system/Flex';
 import pluginPkg from '../../package.json';
 import pluginId from './pluginId';
 import PluginIcon from './components/PluginIcon';

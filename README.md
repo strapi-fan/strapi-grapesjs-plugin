@@ -11,13 +11,13 @@ Inside your Strapi app, add the package:
 With `npm`:
 
 ```bash
-npm install @stripe/strapi-grapejs-plugin
+npm install @strapi-fan/strapi-grapejs-plugin
 ```
 
 With `yarn`:
 
 ```bash
-yarn add @stripe/strapi-grapejs-plugin
+yarn add @strapi-fan/strapi-grapejs-plugin
 ```
 
 Then run build:

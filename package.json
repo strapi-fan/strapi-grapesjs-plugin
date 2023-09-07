@@ -1,5 +1,5 @@
 {
-  "name": "@strapi/strapi-grapejs-plugin",
+  "name": "@strapi-fan/strapi-grapejs-plugin",
   "version": "1.0.0",
   "description": "This is a plugin to use grapeJs as richtext editor for strapi.",
   "strapi": {
